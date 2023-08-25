@@ -39,8 +39,8 @@ Before you begin, ensure you have the following prerequisites:
        ansible --version
 - SSH key pair for connecting to instances.
 - Configure AWS CLI with user credentials:
-```bash
-aws configure
+   ```bash
+  aws configure
 
 
 
