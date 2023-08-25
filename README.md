@@ -2,7 +2,7 @@
 
 # AWS Infrastructure as Code (IaC) Assignment
 
-Welcome to the AWS Infrastructure as Code (IaC) assignment repository. This project demonstrates the creation of a Virtual Private Cloud (VPC) with public and private subnets using Terraform. Additionally, it covers launching EC2 instances and utilizing Ansible to install Git on those instances.
+This project demonstrates the creation of a Virtual Private Cloud (VPC) with public and private subnets using Terraform. Additionally, it covers launching EC2 instances and utilizing Ansible to install Git on those instances.
 
 ## Prerequisites
 
@@ -39,9 +39,5 @@ aws configureAnsible installed. Use the following commands:
 
        #Verify installations:
        ansible --version
-
-An SSH key pair for connecting to instances.
-
-Configure AWS CLI with user credentials:
 
 
