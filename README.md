@@ -26,8 +26,6 @@ Before you begin, ensure you have the following prerequisites:
 
    #Verify installations:
    Terraform version
-
-
 - configure Ansible installed. Use the following commands:
 
    ```bash
@@ -39,14 +37,10 @@ Before you begin, ensure you have the following prerequisites:
 
        #Verify installations:
        ansible --version
-   
-
-
-An SSH key pair for connecting to instances.
-Configure AWS CLI with user credentials:
+-An SSH key pair for connecting to instances.
+-Configure AWS CLI with user credentials:
    ```bash
 aws configure
-
 
 
 
