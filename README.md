@@ -48,6 +48,7 @@ Before you begin, ensure you have the following prerequisites:
     variables.tf: Variables used in the Terraform configuration.
     install_git.yml: Ansible playbook file to install Git on an EC2 instance.
     inventory: Ansible inventory file containing the target hosts.
+    graph:To visualize the infrastructure created using Infrastructure as Code (IAC) with Terraform.it gives understanding of which resoruces are created and how they are connected.
 
 ## Instructions
 
