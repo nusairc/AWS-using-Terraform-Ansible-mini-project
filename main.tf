@@ -1,7 +1,7 @@
 terraform {
 
   backend "s3" {
-    bucket = "week19-bucket"
+    bucket = "aws-bucket-name"
     key    = "my_states/terraform.tfstate"
     region = "us-east-1"
   }
