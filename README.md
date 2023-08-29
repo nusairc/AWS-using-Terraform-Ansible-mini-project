@@ -4,6 +4,11 @@
 
 This project demonstrates the creation of a Virtual Private Cloud (VPC) with public and private subnets using Terraform. Additionally, it covers launching EC2 instances and utilizing Ansible to install Git on those instances. the terraform script create a VPC, with 2 Subnets [Private-1 and Public-1], Each Subnet should have 1 EC2 instance, Routing Tables, IG, NAT, Security Groups, Use S3 Bucket as Terraform backend.
 
+## Important Note
+
+This project is done for academic and learning purposes. While you're welcome to explore and use the code provided, I strongly encourage you to understand the concepts behind it. .
+Copying and pasting the code without understanding its workings may limit your ability to adapt and troubleshoot in different contexts. Take the time to explore the documentation of Terraform, Ansible, and AWS. Experiment with different configurations, make changes, and observe the effects. Infrastructure as Code (IaC) is a powerful approach, and it's essential to grasp the fundamentals before applying it to real-world scenarios
+
 ## Prerequisites
 
 Before you begin, ensure you have the following prerequisites:
@@ -27,7 +32,7 @@ Before you begin, ensure you have the following prerequisites:
    # Install Ansible
    sudo apt-get install ansible 
 
-   #Verify installations:
+   # Verify installations:
    Terraform version
    ansible --version
    
@@ -37,35 +42,32 @@ Before you begin, ensure you have the following prerequisites:
    ```bash
        aws configure
 
-Contents
+## Contents
 
     main.tf: Terraform configuration file for creating AWS resources.
     variables.tf: Variables used in the Terraform configuration.
     install_git.yml: Ansible playbook file to install Git on an EC2 instance.
     inventory: Ansible inventory file containing the target hosts.
 
-Instructions
+## Instructions
 
-    Update the variables.tf file with your desired values.
-    Run terraform init to initialize Terraform.
-    Run terraform apply to create the AWS infrastructure.
-    create install_git.yml & inventory file in EC2 instance where ypu want to install GIT , use commands like nano install_git.yml and nano inventory to create and edit these files.
-    Update the IP address (Host)in the install_git.yml playbook & inventory to match your EC2 instance.
-    Run the Ansible playbook using the command:
-       ```bash
+    - Update the variables.tf file with your desired values.
+    - Run terraform init to initialize Terraform.
+    - Run terraform apply to create the AWS infrastructure.
+    - create install_git.yml & inventory file in EC2 instance where ypu want to install GIT , use commands like nano install_git.yml and nano inventory to create and edit these files.
+    - Update the IP address (Host)in the install_git.yml playbook & inventory to match your EC2 instance.
+    - Run the Ansible playbook using the command:
             ansible-playbook install_git.yml -i inventory -e ansible_python_interpreter=/usr/bin/python3
 
-Cleaning Up
+## Cleaning Up
 
 Remember to stop or terminate your AWS resources after use to avoid unnecessary charges. To remove the resources created by Terraform, use the following command:
-
-      bash
 
       terraform destroy
 
 Before proceeding with the project, make sure you have a good understanding of Terraform and Ansible. Both tools play a vital role in Infrastructure as Code (IaC) and can greatly simplify the process of managing and automating cloud infrastructure.
 
-Feel free to fork this repository and modify the content according to your preferences. Good luck with your IaC journey! if any concerns,feedbacks or help with this project reach me on nusairtech@gmail.com
+If you have any questions, suggestions, or feedback, please feel free to contact @nusairtech@gmail.com. I appreciate your interest and involvement in learning , Good luck with your IaC journey! 
 
 
 
