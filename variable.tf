@@ -14,7 +14,7 @@ variable "subnet_cidr_block" {
 }
 variable "ami_id" {
   description = "AMI ID for EC2 instances"
-  default     = "ami-053b0d53c279acc90"  
+  default     = "ami-#############"  
 }
 
 variable "region" {
