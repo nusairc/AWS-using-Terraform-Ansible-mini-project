@@ -2,7 +2,7 @@
 
 # AWS Infrastructure as Code (IaC) Assignment
 
-This project demonstrates the creation of a Virtual Private Cloud (VPC) with public and private subnets using Terraform. Additionally, it covers launching EC2 instances and utilizing Ansible to install Git on those instances. the terraform script create a VPC, with 2 Subnets [Private-1 and Public-1], Each Subnet should have 1 EC2 instance, Routing Tables, IG, NAT, Security Groups, Use S3 Bucket as Terraform backend.
+This project demonstrates the creation of a Virtual Private Cloud (VPC) with public and private subnets using Terraform. Additionally, it covers launching EC2 instances and utilizing Ansible to install Git on those instances. the terraform script create a VPC, with 2 Subnets [Private-1 and Public-1], Each Subnet should have 1 EC2 instance, Routing Tables, IG, NAT, Security Groups, I have Used S3 Bucket as Terraform backend to store the state file.
 
 ## Important Note
 
