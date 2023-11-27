@@ -62,13 +62,13 @@ Before you begin, ensure you have the following prerequisites:
 
 ## Cleaning Up
 
-Remember to stop or terminate your AWS resources after use to avoid unnecessary charges. To remove the resources created by Terraform, use the following command:
+Remember to stop or terminate your AWS resources after use to avoid unnecessary charges. To remove the resources created by Terraform, you can use the following command:
 
       terraform destroy
 
 Before proceeding with the project, make sure you have a good understanding of Terraform and Ansible. Both tools play a vital role in Infrastructure as Code (IaC) and can greatly simplify the process of managing and automating cloud infrastructure.
 
-If you have any questions, suggestions, or feedback, please feel free to contact @nusairtech@gmail.com. I appreciate your interest and involvement in learning , Good luck with your IaC journey! 
+If you have any queries, suggestions, or feedback, please feel free to contact @nusairtech@gmail.com. I appreciate your interest and involvement in learning , Good luck with your IaC journey! 
 
 
 
